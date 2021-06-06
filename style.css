@@ -1,185 +1,420 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            list-style: none;
-            text-decoration: none;
-            font-family: 'Poppins';
-        }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Poppins';
+    }
 
-        /*HEADER*/
-        header {
-            width: 100%;
-            height: 230px;
-            margin:0;
-        }
+    /*HEADER*/
+    header {
+        width: 100%;
+        height: 230px;
+        margin: 0;
+    }
 
-        #horarios>ul {
-            display: flex;
-            height: 35px;
-            justify-content: space-around;
-            color: #fff;
-            background-color: darkblue;
-        }
+    #horarios>ul {
+        display: flex;
+        height: 35px;
+        justify-content: space-around;
+        color: #fff;
+        list-style: none;
+        background-color: darkblue;
+    }
 
-        .horarios > li{
-            margin-top: 7px;
-        }
-        nav {
-            display: flex;
-            justify-content: space-between;
-            height: 80px;
-            background-color: dodgerblue;
-            color: #fff;
-        }
+    .horarios>li {
+        margin-top: 7px;
+    }
 
-        nav > ul {
-            display: flex;
-            cursor: pointer;
-            margin: 20px 140px 0 0;
-        }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        background-color: dodgerblue;
+        color: #fff;
+    }
 
-        nav > ul > a > li {
-            margin: 10px 20px 0 0;
-            color: #fff;
-        }
+    nav>ul {
+        display: flex;
+        cursor: pointer;
+        margin: 20px 140px 0 0;
+        list-style-type: none;
+    }
 
-        nav > ul > a > li:hover {
-            color: #000;
-            transition: 0.75s;
-        }
-        #logo {
-            font-size: 30px;
-            margin: 20px 0 0 160px;
-        }
+    nav>ul>a>li {
+        margin: 10px 20px 0 0;
+        color: #fff;
+    }
 
-        #logo:hover{color: #000; transition: 1s;}
+    nav>ul>a>li:hover {
+        color: #000;
+        transition: 0.75s;
+    }
 
+    #logo {
+        font-size: 30px;
+        margin: 20px 0 0 160px;
+    }
 
-        /*HEADER*/
-
-        /*SOBRE*/
-        main {margin-top: 0;
-        }
-
-        #title2 {
-            width: 500px;
-            margin-left: 260px;
-            font-size: 40px;
-        }
-
-        #about {
-            width: 77%;
-            height: 670px;
-            border-top: solid 3px dodgerblue;
-            border-bottom: solid 3px dodgerblue;
-            margin:
-                30px 0 0 133px;
-        }
-
-        #aboutitens {
-            display: flex;
-            justify-content: space-between;
-            width: 77%;
-            height: 670px;
-            margin: 30px 0 0 133px;
-        }
-
-        #title3 {
-            margin: 40px 0 0 133px;
-            font-size:40px;
-        }
-
-        #abouttext {
-            width: 40%;
-            font-size: 16px;
-            color: #808080;
-        }
-
-        .img {
-            margin-top: 7px;
-        }
-
-        .img:hover{transform: translateY(-10px); transition: 0.75s;}
-
-        .img1 {
-            height: 500px;
-            margin: 0 0 0 55px
-        }
-
-        .img2 {
-            height: 230px;
-        }
-
-        /*Fim Sobre*/
+    #logo:hover {
+        color: #000;
+        transition: 1s;
+    }
 
 
-        /*Produtos*/
-        #produtos {
-            height: 800px;
-            margin-top: 70px;
-        }
+    /*HEADER*/
 
-        .produtostitle {
-            font-size: 45px;
-            margin: 0 0 0 20%;
-        }
+    /*SOBRE*/
+    main {
+        margin-top: 0;
+    }
 
-        #colors {
-            height: 630px;
-            width: 85%;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-around;
-        }
+    #title2 {
+        width: 500px;
+        margin-left: 260px;
+        font-size: 40px;
+    }
 
-        .colorboxes {
-            margin: 120px 0 0 0;
-            background-color: #fff;
-        }
+    #about {
+        width: 77%;
+        height: 670px;
+        border-top: solid 3px dodgerblue;
+        border-bottom: solid 3px dodgerblue;
+        margin:
+            30px 0 0 133px;
+    }
 
-        .colorboxes:hover{transform: translateY(-35px); transition: 0.75s;}
+    #aboutitens {
+        display: flex;
+        justify-content: space-between;
+        width: 77%;
+        height: 670px;
+        margin: 30px 0 0 133px;
+    }
 
-        .colortitle {
-            font-size: 40px;
-            margin: 8% 0 0 10%;
-            color: #A9A9A9;
-        }
+    #title3 {
+        margin: 40px 0 0 133px;
+        font-size: 40px;
+    }
 
-        .purple {
-            width: 300px;
-            height: 380px;
-            border-top: #BA55D3 solid 8px;
-            margin: 19% 0 0 9%;
-        }
+    #abouttext {
+        width: 40%;
+        font-size: 16px;
+        color: #808080;
+    }
 
-        #purpleimg {
-            width: 100%;
-            margin-top: 16%;
-        }
+    .img {
+        margin-top: 7px;
+    }
 
-        .pink {
-            width: 300px;
-            height: 480px;
-            border-top: #DC143C solid 8px;
-        }
+    .img1 {
+        height: 500px;
+        margin: 0 0 0 55px
+    }
 
-        #pinkimg {
-            width: 100%;
-            height: 360px;
-            margin-top: 12.5%;
-        }
+    .img2 {
+        height: 230px;
+    }
 
-        .blue {
-            width: 300px;
-            height: 435px;
-            border-top: #00BFFF solid 8px;
-            margin: 14.5% 7% 0 0;
-        }
+    /*Fim Sobre*/
 
-        #blueimg {
-            width: 100%;
-            margin-top: 17.5%;
-        }
 
-        /*FIM PRODUTOS*/
+    /*Produtos*/
+    #produtos {
+        height: 800px;
+        margin-top: 70px;
+    }
+
+    .produtostitle {
+        font-size: 45px;
+        margin: 0 0 0 20%;
+    }
+
+    #colors {
+        height: 630px;
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .colorboxes {
+        margin: 120px 0 0 0;
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+    .colorboxes:hover {
+        transform: translateY(-20px);
+        transition: 0.75s;
+    }
+
+    .colortitle {
+        font-size: 40px;
+        margin: 8% 0 0 10%;
+        color: #A9A9A9;
+    }
+
+    .purple {
+        width: 300px;
+        height: 380px;
+        border-top: #BA55D3 solid 8px;
+        margin: 19% 0 0 9%;
+    }
+
+    #purpleimg {
+        width: 100%;
+        margin-top: 16%;
+    }
+
+    .pink {
+        width: 300px;
+        height: 480px;
+        border-top: #DC143C solid 8px;
+    }
+
+    #pinkimg {
+        width: 100%;
+        height: 360px;
+        margin-top: 12.5%;
+    }
+
+    .blue {
+        width: 300px;
+        height: 435px;
+        border-top: #00BFFF solid 8px;
+        margin: 14.5% 7% 0 0;
+    }
+
+    #blueimg {
+        width: 100%;
+        margin-top: 17.5%;
+    }
+
+    /*FIM PRODUTOS*/
+
+    /*PLANOS*/
+
+    #planos {
+        background-color: #DCDCDC;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        height: 515px;
+    }
+
+    .planosboxes {
+        width: 305px;
+        border: solid 3px #fff;
+        margin: 3%;
+        cursor: pointer;
+    }
+
+    .planosboxes:hover {
+        transform: translateY(-10px);
+        transition: 0.75s
+    }
+
+    .planostitle {
+        color: lightslategray;
+        font-size: 29px;
+        text-align: center;
+        margin: 14px 0 10px 0;
+    }
+
+    .planosvalor {
+        border-top: solid 2px #fff;
+        border-bottom: solid 2px #fff;
+        height: 70px;
+        text-align: center;
+        width: 70%;
+        font-size: 30px;
+        margin-left: 40px;
+        padding-top: 10px;
+    }
+
+    .planoslist {
+        list-style: none;
+        margin-left: 37px;
+        margin-top: 20px;
+        color: gray;
+    }
+
+    .planoslist>li {
+        margin-bottom: 2.5%;
+    }
+
+    .disc1 {
+        margin-left: 65px;
+    }
+
+    .disc2 {
+        margin-left: 75px;
+    }
+
+    .disc3 {
+        margin-left: 51px;
+    }
+
+    .disc4 {
+        margin-left: 100px;
+    }
+
+    .disc5 {
+        margin-left: 54px;
+    }
+
+    .disc6 {
+        margin-left: 40px;
+    }
+
+    .planosbtn {
+        width: 185px;
+        height: 50px;
+        font-size: 25px;
+        text-align: center;
+        border: solid 3px;
+        background-color: #DCDCDC;
+        margin: 15px;
+        cursor: pointer;
+    }
+
+    .planosbtn:hover {
+        background-color: #fff;
+        color: #808080;
+        transition: 0.75s;
+        cursor: pointer;
+    }
+
+    .ouro {
+        height: 440px;
+    }
+
+    .prata {
+        height: 420px;
+        margin-top: 60px;
+    }
+
+    .cobre {
+        height: 400px;
+        margin-top: 82px;
+    }
+
+    /*Fim planos*/
+
+    /*Beneficios*/
+    .beneficios {
+        display: flex;
+        height: 290px;
+        background-color: #fff;
+    }
+
+    .beneficios2 {
+        display: flex;
+        height: 40px;
+        background-color: blue;
+    }
+
+    .beneficiosboxes {
+        height: 200px;
+        width: 400px;
+        margin-top: 6%;
+    }
+
+    .beneficiostitle {
+        width: 70px;
+        height: 30px;
+        margin-left: 10px;
+        padding-left: 10px;
+        color: #808080;
+    }
+
+    .boxpurple {
+        margin-left: 150px;
+    }
+
+    .boxblue {
+        margin-right: 90px;
+    }
+
+    .boxpink {
+        margin-left: 10px
+    }
+
+    .titlepurple {
+        border-left: #BA55D3 solid 7px;
+    }
+
+    .titlepink {
+        border-left: #DC143C solid 7px;
+    }
+
+    .titleblue {
+        border-left: #00BFFF solid 7px;
+    }
+
+    .beneficiostext {
+        width: 270px;
+        margin: 15px;
+        color: #808080;
+    }
+
+    .beneficiostextpink {
+        width: 80%;
+        margin: 15px 0 0 10px;
+    }
+
+    /* Fim Beneficios*/
+
+    /*Newsletter*/
+    #newsletter {
+        height: 230px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #newslettertitlebox {
+        margin: 40px 0 0 70px;
+    }
+
+    #newslettertitle {
+        color: #808080;
+        font-size: 35px;
+    }
+
+    #newslettertext {
+        width: 200px;
+        color: #808080
+    }
+
+    form {
+        height: 58px;
+        border-top: solid 2.5px #1E90FF;
+        border-left: solid 2.5px #1E90FF;
+        border-bottom: solid 4px #1E90FF;
+        margin: 60px 80px 0 0;
+    }
+
+    .email {
+        height: 48px;
+        width: 400px;
+        padding-left: 15px;
+        border: none;
+        outline: none;
+    }
+
+    .newsletterbtn {
+        height: 54px;
+        width: 200px;
+        text-align: center;
+        background-color: #1E90FF;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        color: #fff;
+        cursor: pointer;
+    }
+    /*Fim Newsletter*/
+
+    footer{background-color: #1E90FF; height: 200px;}
+    footer > p{text-align: center; padding-top: 80px; font-size: 30px; color: #0000FF;}

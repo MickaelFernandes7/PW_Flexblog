@@ -8,10 +8,12 @@
     <title>Flexblog</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
+
     <header>
         <div id="horarios">
             <ul class="horarios">
@@ -41,54 +43,370 @@
     </header>
 
     <main>
-        
+
+        <b>
+            <h2 id="title2">Novos Valores e Propriedades de CSS</h2>
+        </b>
+
+        <div id="about">
+
+            <p id="title3"><b>Sobre</b></p>
+
+            <div id="aboutitens">
+                <p id="abouttext">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta
+                    positivamente a correta previsão das condições inegavelmente apropriadas objetivos.
+                    <br><br>
+                    O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente
+                    a
+                    correta previsão das condições inegavelmente apropriadas objetivos.
+                </p>
+
+                <img src="imagens/sobre1.jpg" class="img img1" alt="Mulher mexendo no celular">
+                <img src="imagens/sobre2.jpg" class="img img2" alt="Uma pessoa desenhando pinheiros">
+            </div>
+        </div>
+
+        <div id="produtos">
             <b>
-                <h2 id="title2">Novos Valores e Propriedades de CSS</h2>
+                <h2 class="produtostitle">Produtos</h2>
             </b>
-
-            <div id="about">
-
-                <p id="title3"><b>Sobre</b></p>
-
-                <div id="aboutitens">
-                    <p id="abouttext">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta
-                        positivamente a correta previsão das condições inegavelmente apropriadas objetivos.
-                        <br><br>
-                        O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente
-                        a
-                        correta previsão das condições inegavelmente apropriadas objetivos.
-                    </p>
-
-                    <img src="imagens/sobre1.jpg" class="img img1" alt="Mulher mexendo no celular">
-                    <img src="imagens/sobre2.jpg" class="img img2" alt="Uma pessoa desenhando pinheiros">
+            <div id="colors">
+                <div class="colorboxes purple">
+                    <b>
+                        <p class="colortitle">Purple</p>
+                    </b>
+                    <img src="imagens/produtos1.jpg" id="purpleimg" alt="">
+                </div>
+                <div class="colorboxes pink">
+                    <b>
+                        <p class="colortitle">Pink</p>
+                    </b>
+                    <img src="imagens/produtos2.jpg" id="pinkimg" alt="">
+                </div>
+                <div class="colorboxes blue">
+                    <b>
+                        <p class="colortitle">Blue</p>
+                    </b>
+                    <img src="imagens/produtos3.jpg" id="blueimg" alt="">
                 </div>
             </div>
+        </div>
 
-            <div id="produtos">
+        <div id="planos">
+            <div class="planosboxes ouro">
+                <strong>
+                    <h2 class="planostitle">Ouro</h2>
+                </strong>
+                <strong>
+                    <h2 class="planosvalor">R$79</h2>
+                </strong>
+                <ul class="planoslist">
+                    <li>Planos Ilimitados<svg class="disc1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3498db">
+                                    <path
+                                        d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></li>
+                    <li>Acesso Restrito <svg class="disc2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10"
+                            height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3498db">
+                                    <path
+                                        d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></li>
+                    <li>Conteúdo Secreto <svg class="disc3" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3498db">
+                                    <path
+                                        d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></li>
+                    <li>Suporte 24h <svg class="disc4" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10"
+                            height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3498db">
+                                    <path
+                                        d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></li>
+                    <li>Compra Exclusiva <svg class="disc5" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3498db">
+                                    <path
+                                        d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></li>
+                    <li>Download dos Itens <svg class="disc6" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3498db">
+                                    <path
+                                        d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></li>
+                    <button class="planosbtn"><strong>COMPRAR</strong></button>
+                </ul>
+            </div>
+
+            <div class="planosboxes prata">
+                <h2 class="planostitle">Prata</h2>
                 <b>
-                    <h2 class="produtostitle">Produtos</h2>
+                    <h2 class="planosvalor">R$39</h2>
                 </b>
-                <div id="colors">
-                    <div class="colorboxes purple">
-                        <b><p class="colortitle">Purple</p></b>
-                        <img src="imagens/produtos1.jpg" id="purpleimg" alt="">
-                    </div>
-                    <div class="colorboxes pink">
-                        <b><p class="colortitle">Pink</p></b>
-                        <img src="imagens/produtos2.jpg" id="pinkimg" alt="">
-                    </div>
-                    <div class="colorboxes blue">
-                        <b><p class="colortitle">Blue</p></b>
-                        <img src="imagens/produtos3.jpg" id="blueimg" alt="">
-                    </div>
-                </div>
-                <div>
+                <ul class="planoslist">
+                    <li>Planos Ilimitados<svg class="disc1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3498db">
+                                    <path
+                                        d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></li>
+                    <li>Acesso Restrito <svg class="disc2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10"
+                            height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3498db">
+                                    <path
+                                        d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></li>
+                    <li>Conteúdo Secreto <svg class="disc3" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3498db">
+                                    <path
+                                        d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></li>
+                    <li>Suporte 24h <svg class="disc4" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10"
+                            height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3498db">
+                                    <path
+                                        d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></li>
+                    <li>Compra Exclusiva <svg class="disc5" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3498db">
+                                    <path
+                                        d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></li>
+                    <button class="planosbtn"><strong>COMPRAR</strong></button>
+                </ul>
+            </div>
 
+            <div class="planosboxes cobre">
+                <h2 class="planostitle">Cobre</h2>
+                <b>
+                    <h2 class="planosvalor">R$19</h2>
+                </b>
+                <ul class="planoslist">
+                    <li>Planos Ilimitados<svg class="disc1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3498db">
+                                    <path
+                                        d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></li>
+                    <li>Acesso Restrito <svg class="disc2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10"
+                            height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3498db">
+                                    <path
+                                        d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></li>
+                    <li>Conteúdo Secreto <svg class="disc3" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="10" height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3498db">
+                                    <path
+                                        d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></li>
+                    <li>Suporte 24h <svg class="disc4" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10"
+                            height="10" viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3498db">
+                                    <path
+                                        d="M86,14.33333c-39.58041,0 -71.66667,32.08626 -71.66667,71.66667c0,39.58041 32.08626,71.66667 71.66667,71.66667c39.58041,0 71.66667,-32.08626 71.66667,-71.66667c0,-39.58041 -32.08626,-71.66667 -71.66667,-71.66667z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></li>
+                    <button class="planosbtn"><strong>COMPRAR</strong></button>
+                </ul>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="beneficios">
+                <div class="beneficiosboxes boxpurple">
+                    <h2 class="beneficiostitle titlepurple">Inteligente</h2>
+                    <p class="beneficiostext">O que temos que ter sempre em mente é que a determinação clara de
+                        objetivos
+                        afeta
+                        positivamente a correta previsão</p>
+                </div>
+                <div class="beneficiosboxes boxpink">
+                    <h2 class="beneficiostitle titlepink">Compacto</h2>
+                    <p class="beneficiostext">O que temos que ter sempre em mente é que a determinação clara de
+                        objetivos afeta positivamente a
+                        correta
+                        previsão das condições inegavelmente</p>
+                </div>
+                <div class="beneficiosboxes boxblue">
+                    <h2 class="beneficiostitle titleblue">Econômico</h2>
+                    <p class="beneficiostext">O que temos que ter sempre em mente é que a determinação clara de
+                        objetivos
+                        afeta
+                        positivamente a correta previsão</p>
                 </div>
             </div>
 
-       
+            <div class="beneficios">
+                <div class="beneficiosboxes boxpurple">
+                    <h2 class="beneficiostitle titlepurple">Transparente</h2>
+                    <p class="beneficiostext">O que temos que ter sempre em mente é que a determinação clara de
+                        objetivos
+                        afeta
+                        positivamente a correta previsão</p>
+                </div>
+                <div class="beneficiosboxes boxpink">
+                    <h2 class="beneficiostitle titlepink">Opaco</h2>
+                    <p class="beneficiostext">O que temos que ter sempre em mente é que a determinação clara de
+                        objetivos afeta positivamente a
+                        correta
+                        previsão das condições inegavelmente</p>
+                </div>
+                <div class="beneficiosboxes boxblue">
+                    <h2 class="beneficiostitle titleblue">Sustentável</h2>
+                    <p class="beneficiostext">O que temos que ter sempre em mente é que a determinação clara de
+                        objetivos
+                        afeta
+                        positivamente a correta previsão</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="newsletter">
+
+            <article id="newslettertitlebox">
+                <b>
+                    <h2 id="newslettertitle">Newsletter</h2>
+                </b>
+
+                <p id="newslettertext">assine e fique por dentro das novidades</p>
+            </article>
+
+            <form>
+                <input type="email" class="newsletterinput email" placeholder="Seu e-mail"><button
+                    class="newsletterinput newsletterbtn">ASSINAR</button>
+            </form>
+        </div>
     </main>
+
+    <footer>
+        <p>FlexBlog © Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>
