@@ -54,6 +54,7 @@
     #logo {
         font-size: 30px;
         margin: 20px 0 0 160px;
+        cursor: pointer;
     }
 
     #logo:hover {
